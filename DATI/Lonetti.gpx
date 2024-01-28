@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx creator="StravaGPX Android" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" xmlns="http://www.topografix.com/GPX/1/1">
+ <metadata>
+  <time>2024-01-28T11:45:21Z</time>
+ </metadata>
+ <trk>
+  <name>Lonetti</name>
+  <type>running</type>
+  <trkseg>
+   <trkpt lat="44.8514080" lon="10.0663280">
+    <ele>74.2</ele>
+    <time>2024-01-28T11:45:21Z</time>
+   </trkpt>
+   <trkpt lat="44.8514640" lon="10.0662980">
+    <ele>74.2</ele>
+    <time>2024-01-28T11:45:25Z</time>
+   </trkpt>
+   <trkpt lat="44.8514680" lon="10.0662490">
+    <ele>74.2</ele>
+    <time>2024-01-28T11:45:26Z</time>
+   </trkpt>
+   <trkpt lat="44.8514650" lon="10.0662750">
+    <ele>74.2</ele>
+    <time>2024-01-28T11:45:27Z</time>
+   </trkpt>
+   <trkpt lat="44.8514920" lon="10.0662910">
+    <ele>74.2</ele>
+    <time>2024-01-28T11:45:29Z</time>
+   </trkpt>
+  </trkseg>
+ </trk>
+</gpx>
