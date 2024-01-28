@@ -1,26 +1,26 @@
 import xml.etree.ElementTree as ET
 import os 
 import pandas as pd
-
-dir='DATI'
+import pathlib
+dir=r'C:\Users\plonetti\Documents\GitHub\BikeToSchool\DATI'
 #INPUT_KML_FILE = "MyTracks_Lonetti_20231127181706.kml"
 # Itera attraverso le righe del file KML
 lista=[['Name','Total distance','Total time','Max speed','Data']]
-for filename in os.listdir(dir):       
-    if filename.endswith(".kml"):
+
+for filename in os.listdir(dir): 
+    if filename.endswith(".kml"):      
         file_path = os.path.join(dir, filename)
-        print(filename)
         dati_da_inserire=[]
         tree = ET.parse(file_path)
         root = tree.getroot()
-               
         for element in root.iter():
             if element.text is not None and element.text.strip() != "":
                 # Divide il testo in righe e stampa ciascuna riga
                 lines = element.text.splitlines()
+                print (lines)
                  # Start from the first cell below the headers.                            
                 for line in lines:
-                    #print(line)
+                    print(line)
                     if line[0:5]=='Name:':
                         dati_da_inserire.append(line[6:])
                     if line[0:15]=='Total distance:':
