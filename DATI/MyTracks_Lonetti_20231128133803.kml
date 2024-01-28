@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+xmlns:gx="http://www.google.com/kml/ext/2.2"
+xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+<open>1</open>
+<visibility>1</visibility>
+<name><![CDATA[Lonetti]]></name>
+<description><![CDATA[]]></description>
+<routetype>11</routetype>
+<atom:author><atom:name><![CDATA[Created by My Tracks from Daniel Qin]]></atom:name></atom:author>
+<Style id="track">
+<LineStyle><color>7f0000ff</color><width>4</width></LineStyle>
+<IconStyle>
+<scale>1.3</scale>
+<Icon><href>https://earth.google.com/images/kml-icons/track-directional/track-0.png</href></Icon>
+</IconStyle>
+</Style>
+<Style id="start"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>https://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Style id="end"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>https://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Style id="statistics"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>https://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href></Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Style id="waypoint"><IconStyle>
+<scale>1.3</scale>
+<Icon><href>https://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+</IconStyle></Style>
+<Schema id="schema">
+<gx:SimpleArrayField name="power" type="int">
+<displayName><![CDATA[Power (W)]]></displayName>
+</gx:SimpleArrayField>
+<gx:SimpleArrayField name="cadence" type="int">
+<displayName><![CDATA[Cadence (rpm)]]></displayName>
+</gx:SimpleArrayField>
+<gx:SimpleArrayField name="heart_rate" type="int">
+<displayName><![CDATA[Heart rate (bpm)]]></displayName>
+</gx:SimpleArrayField>
+</Schema>
+<Folder><name><![CDATA[Tragitti]]></name>
+<open>1</open>
+<Placemark>
+<name><![CDATA[Inizio]]></name>
+<description><![CDATA[]]></description>
+<TimeStamp><when>2023-11-28T12:38:05.452Z</when></TimeStamp>
+<styleUrl>#start</styleUrl>
+<Point>
+<coordinates>10.062502,44.853737,118.9</coordinates>
+</Point>
+</Placemark>
+<Placemark id="tour">
+<name><![CDATA[Lonetti]]></name>
+<description></description>
+<styleUrl>#track</styleUrl>
+<gx:MultiTrack>
+<altitudeMode>absolute</altitudeMode>
+<gx:interpolate>0</gx:interpolate>
+<gx:Track>
+<when>2023-11-28T12:38:05.452Z</when>
+<when>2023-11-28T12:38:10.240Z</when>
+<when>2023-11-28T12:38:13.234Z</when>
+<when>2023-11-28T12:38:18.900Z</when>
+<when>2023-11-28T12:38:21.913Z</when>
+<when>2023-11-28T12:38:24.926Z</when>
+<when>2023-11-28T12:38:27.940Z</when>
+<when>2023-11-28T12:38:31.264Z</when>
+<when>2023-11-28T12:38:34.278Z</when>
+<when>2023-11-28T12:38:38.295Z</when>
+<when>2023-11-28T12:38:41.811Z</when>
+<when>2023-11-28T12:38:45.828Z</when>
+<when>2023-11-28T12:38:49.287Z</when>
+<when>2023-11-28T12:38:52.336Z</when>
+<when>2023-11-28T12:38:55.230Z</when>
+<when>2023-11-28T12:38:58.310Z</when>
+<when>2023-11-28T12:39:01.416Z</when>
+<when>2023-11-28T12:39:04.284Z</when>
+<when>2023-11-28T12:39:07.342Z</when>
+<when>2023-11-28T12:39:10.948Z</when>
+<when>2023-11-28T12:39:13.968Z</when>
+<when>2023-11-28T12:39:19.335Z</when>
+<when>2023-11-28T12:39:22.217Z</when>
+<when>2023-11-28T12:39:25.297Z</when>
+<when>2023-11-28T12:39:28.404Z</when>
+<when>2023-11-28T12:39:32.422Z</when>
+<when>2023-11-28T12:39:35.928Z</when>
+<when>2023-11-28T12:39:39.874Z</when>
+<when>2023-11-28T12:39:43.288Z</when>
+<when>2023-11-28T12:39:46.011Z</when>
+<when>2023-11-28T12:39:49.025Z</when>
+<when>2023-11-28T12:39:52.319Z</when>
+<when>2023-11-28T12:39:57.973Z</when>
+<when>2023-11-28T12:40:00.786Z</when>
+<when>2023-11-28T12:40:04.308Z</when>
+<when>2023-11-28T12:40:07.315Z</when>
+<when>2023-11-28T12:40:10.428Z</when>
+<when>2023-11-28T12:40:15.449Z</when>
+<when>2023-11-28T12:40:19.313Z</when>
+<when>2023-11-28T12:40:22.292Z</when>
+<when>2023-11-28T12:40:25.384Z</when>
+<when>2023-11-28T12:40:28.397Z</when>
+<when>2023-11-28T12:40:31.409Z</when>
+<when>2023-11-28T12:40:34.422Z</when>
+<when>2023-11-28T12:40:37.435Z</when>
+<when>2023-11-28T12:40:40.448Z</when>
+<when>2023-11-28T12:40:43.965Z</when>
+<when>2023-11-28T12:40:46.977Z</when>
+<when>2023-11-28T12:40:47.479Z</when>
+<when>2023-11-28T12:40:48.571Z</when>
+<when>2023-11-28T12:40:50.101Z</when>
+<when>2023-11-28T12:40:51.105Z</when>
+<when>2023-11-28T12:40:52.612Z</when>
+<when>2023-11-28T12:40:58.639Z</when>
+<gx:coord>10.062502 44.853737 118.9</gx:coord>
+<gx:coord>10.062572 44.85369 118.9</gx:coord>
+<gx:coord>10.062652 44.85365 118.9</gx:coord>
+<gx:coord>10.062876 44.85353 118.8</gx:coord>
+<gx:coord>10.0630665 44.853462 118.8</gx:coord>
+<gx:coord>10.06313 44.85341 118.8</gx:coord>
+<gx:coord>10.06327 44.853363 118.700005</gx:coord>
+<gx:coord>10.063376 44.853294 118.700005</gx:coord>
+<gx:coord>10.063528 44.8532 118.700005</gx:coord>
+<gx:coord>10.063699 44.8531 118.700005</gx:coord>
+<gx:coord>10.063865 44.85301 118.700005</gx:coord>
+<gx:coord>10.063971 44.85288 118.700005</gx:coord>
+<gx:coord>10.063973 44.85275 118.700005</gx:coord>
+<gx:coord>10.064015 44.85261 118.700005</gx:coord>
+<gx:coord>10.064214 44.852573 118.700005</gx:coord>
+<gx:coord>10.064336 44.852524 119.4</gx:coord>
+<gx:coord>10.064491 44.852425 119.4</gx:coord>
+<gx:coord>10.064638 44.85238 120.700005</gx:coord>
+<gx:coord>10.064784 44.85229 120.700005</gx:coord>
+<gx:coord>10.06491 44.852226 120.700005</gx:coord>
+<gx:coord>10.065065 44.85214 120.700005</gx:coord>
+<gx:coord>10.065317 44.851994 119.4</gx:coord>
+<gx:coord>10.065409 44.851948 119.3</gx:coord>
+<gx:coord>10.065475 44.851925 119.3</gx:coord>
+<gx:coord>10.065701 44.851818 119.5</gx:coord>
+<gx:coord>10.06588 44.851727 119.5</gx:coord>
+<gx:coord>10.066031 44.851646 119.8</gx:coord>
+<gx:coord>10.066136 44.851543 119.8</gx:coord>
+<gx:coord>10.066132 44.851482 119.9</gx:coord>
+<gx:coord>10.06615 44.851486 119.9</gx:coord>
+<gx:coord>10.066132 44.8515 119.9</gx:coord>
+<gx:coord>10.06612 44.85151 119.8</gx:coord>
+<gx:coord>10.06612 44.85151 119.9</gx:coord>
+<gx:coord>10.066119 44.851517 119.9</gx:coord>
+<gx:coord>10.066139 44.851513 119.6</gx:coord>
+<gx:coord>10.066202 44.851494 119.6</gx:coord>
+<gx:coord>10.066332 44.851463 119.8</gx:coord>
+<gx:coord>10.066329 44.85145 128.8</gx:coord>
+<gx:coord>10.066279 44.85142 128.8</gx:coord>
+<gx:coord>10.066226 44.851406 128.8</gx:coord>
+<gx:coord>10.066186 44.851387 128.8</gx:coord>
+<gx:coord>10.066126 44.851383 119.8</gx:coord>
+<gx:coord>10.066095 44.851418 119.8</gx:coord>
+<gx:coord>10.066136 44.85141 119.8</gx:coord>
+<gx:coord>10.066177 44.85141 119.8</gx:coord>
+<gx:coord>10.066174 44.85143 119.8</gx:coord>
+<gx:coord>10.06616 44.851456 119.8</gx:coord>
+<gx:coord>10.066163 44.85146 119.8</gx:coord>
+<gx:coord>10.066163 44.85146 119.8</gx:coord>
+<gx:coord>10.066161 44.85146 119.8</gx:coord>
+<gx:coord>10.066174 44.85145 119.8</gx:coord>
+<gx:coord>10.066185 44.851437 119.8</gx:coord>
+<gx:coord>10.066197 44.851425 119.8</gx:coord>
+<gx:coord>10.066224 44.851414 119.8</gx:coord>
+<ExtendedData>
+<SchemaData schemaUrl="#schema">
+<gx:SimpleArrayData name="speed">
+<gx:value>0.61534506</gx:value>
+<gx:value>2.1740458</gx:value>
+<gx:value>3.0093358</gx:value>
+<gx:value>3.7146337</gx:value>
+<gx:value>3.5746486</gx:value>
+<gx:value>3.933984</gx:value>
+<gx:value>2.8400993</gx:value>
+<gx:value>4.192608</gx:value>
+<gx:value>4.28</gx:value>
+<gx:value>4.350287</gx:value>
+<gx:value>4.3043356</gx:value>
+<gx:value>4.256647</gx:value>
+<gx:value>4.373338</gx:value>
+<gx:value>4.394441</gx:value>
+<gx:value>4.4076567</gx:value>
+<gx:value>3.4970415</gx:value>
+<gx:value>4.415879</gx:value>
+<gx:value>4.5009704</gx:value>
+<gx:value>4.4367485</gx:value>
+<gx:value>2.8233979</gx:value>
+<gx:value>4.4371586</gx:value>
+<gx:value>4.413523</gx:value>
+<gx:value>3.8595684</gx:value>
+<gx:value>4.2365775</gx:value>
+<gx:value>4.316102</gx:value>
+<gx:value>4.281392</gx:value>
+<gx:value>4.1312857</gx:value>
+<gx:value>3.63549</gx:value>
+<gx:value>2.2919123</gx:value>
+<gx:value>0.2843512</gx:value>
+<gx:value>0.0035659114</gx:value>
+<gx:value>0.024443425</gx:value>
+<gx:value>0.19808985</gx:value>
+<gx:value>0.35491917</gx:value>
+<gx:value>0.24927333</gx:value>
+<gx:value>1.9520859</gx:value>
+<gx:value>1.7210482</gx:value>
+<gx:value>1.136972</gx:value>
+<gx:value>0.9147636</gx:value>
+<gx:value>1.2509161</gx:value>
+<gx:value>1.4400507</gx:value>
+<gx:value>1.2307507</gx:value>
+<gx:value>1.1786373</gx:value>
+<gx:value>1.3632362</gx:value>
+<gx:value>1.3914621</gx:value>
+<gx:value>1.0829298</gx:value>
+<gx:value>1.2368542</gx:value>
+<gx:value>1.2200233</gx:value>
+<gx:value>1.1692832</gx:value>
+<gx:value>1.1616055</gx:value>
+<gx:value>0.63709676</gx:value>
+<gx:value>1.2123634</gx:value>
+<gx:value>1.3886948</gx:value>
+<gx:value>1.4318087</gx:value>
+</gx:SimpleArrayData>
+<gx:SimpleArrayData name="accuracy">
+<gx:value>10.317</gx:value>
+<gx:value>11.081</gx:value>
+<gx:value>3.9</gx:value>
+<gx:value>28.973</gx:value>
+<gx:value>8.387</gx:value>
+<gx:value>8.418</gx:value>
+<gx:value>7.703</gx:value>
+<gx:value>7.914</gx:value>
+<gx:value>8.156</gx:value>
+<gx:value>7.557</gx:value>
+<gx:value>7.679</gx:value>
+<gx:value>7.842</gx:value>
+<gx:value>7.935</gx:value>
+<gx:value>8.675</gx:value>
+<gx:value>5.782</gx:value>
+<gx:value>23.018</gx:value>
+<gx:value>12.88</gx:value>
+<gx:value>6.578</gx:value>
+<gx:value>7.838</gx:value>
+<gx:value>8.508</gx:value>
+<gx:value>8.14</gx:value>
+<gx:value>8.86</gx:value>
+<gx:value>13.955</gx:value>
+<gx:value>14.064</gx:value>
+<gx:value>7.399</gx:value>
+<gx:value>5.751</gx:value>
+<gx:value>7.502</gx:value>
+<gx:value>7.85</gx:value>
+<gx:value>7.43</gx:value>
+<gx:value>7.901</gx:value>
+<gx:value>8.022</gx:value>
+<gx:value>7.328</gx:value>
+<gx:value>7.599</gx:value>
+<gx:value>8.453</gx:value>
+<gx:value>9.559</gx:value>
+<gx:value>13.14</gx:value>
+<gx:value>13.452</gx:value>
+<gx:value>7.371</gx:value>
+<gx:value>7.153</gx:value>
+<gx:value>7.834</gx:value>
+<gx:value>9.232</gx:value>
+<gx:value>9.571</gx:value>
+<gx:value>9.985</gx:value>
+<gx:value>9.899</gx:value>
+<gx:value>10.042</gx:value>
+<gx:value>10.429</gx:value>
+<gx:value>11.86</gx:value>
+<gx:value>14.787</gx:value>
+<gx:value>14.682</gx:value>
+<gx:value>14.888</gx:value>
+<gx:value>14.835</gx:value>
+<gx:value>14.533</gx:value>
+<gx:value>14.17</gx:value>
+<gx:value>13.991</gx:value>
+</gx:SimpleArrayData>
+<gx:SimpleArrayData name="bearing">
+<gx:value>85.65411</gx:value>
+<gx:value>94.95387</gx:value>
+<gx:value>127.80247</gx:value>
+<gx:value>117.815544</gx:value>
+<gx:value>120.89241</gx:value>
+<gx:value>128.63202</gx:value>
+<gx:value>119.46128</gx:value>
+<gx:value>87.247986</gx:value>
+<gx:value>123.80859</gx:value>
+<gx:value>138.9654</gx:value>
+<gx:value>125.01852</gx:value>
+<gx:value>169.96101</gx:value>
+<gx:value>178.59581</gx:value>
+<gx:value>170.43163</gx:value>
+<gx:value>128.08565</gx:value>
+<gx:value>121.14686</gx:value>
+<gx:value>120.63942</gx:value>
+<gx:value>118.93276</gx:value>
+<gx:value>126.61963</gx:value>
+<gx:value>112.838875</gx:value>
+<gx:value>128.23218</gx:value>
+<gx:value>129.70111</gx:value>
+<gx:value>126.26179</gx:value>
+<gx:value>117.91227</gx:value>
+<gx:value>119.776344</gx:value>
+<gx:value>132.5401</gx:value>
+<gx:value>130.87592</gx:value>
+<gx:value>164.18347</gx:value>
+<gx:value>167.1729</gx:value>
+<gx:value>148.79933</gx:value>
+<gx:value></gx:value>
+<gx:value></gx:value>
+<gx:value>164.88438</gx:value>
+<gx:value>11.539773</gx:value>
+<gx:value>55.50228</gx:value>
+<gx:value>97.09759</gx:value>
+<gx:value>50.096577</gx:value>
+<gx:value>321.4674</gx:value>
+<gx:value>251.2927</gx:value>
+<gx:value>248.11028</gx:value>
+<gx:value>197.73851</gx:value>
+<gx:value>267.75217</gx:value>
+<gx:value>70.7345</gx:value>
+<gx:value>150.0553</gx:value>
+<gx:value>62.621876</gx:value>
+<gx:value>351.07834</gx:value>
+<gx:value>322.1367</gx:value>
+<gx:value>313.7405</gx:value>
+<gx:value>299.81357</gx:value>
+<gx:value>312.375</gx:value>
+<gx:value>132.81093</gx:value>
+<gx:value>143.31099</gx:value>
+<gx:value>138.9414</gx:value>
+<gx:value>130.43515</gx:value>
+</gx:SimpleArrayData>
+</SchemaData>
+</ExtendedData>
+</gx:Track>
+</gx:MultiTrack>
+</Placemark>
+<Placemark>
+<name><![CDATA[Lonetti(Fine)]]></name>
+<description><![CDATA[Created by My Tracks on Android
+
+Name: Lonetti
+Description: 
+Activity type: Corsa
+Total distance: 457m
+Total time: 00:02:57
+Moving time: 00:02:57
+Average speed: 9,29km/h
+Average moving speed: 9,29km/h
+Max speed: 16,2km/h
+Average pace: 6'27"/km
+Average moving pace: 6'27"/km
+Fastest pace: 3'42"/km
+Max elevation: 129m
+Min elevation: 119m
+Elevation gain: 12m
+Max grade: 
+Min grade:
+Recorded: 2023-11-28 13:38:03]]></description>
+<TimeStamp><when>2023-11-28T12:40:58.639Z</when></TimeStamp>
+<styleUrl>#end</styleUrl>
+<Point>
+<coordinates>10.066224,44.851414,119.8</coordinates>
+</Point>
+</Placemark>
+</Folder>
+</Document>
+</kml>
