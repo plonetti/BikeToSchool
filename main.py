@@ -1,15 +1,17 @@
 import gpxpy
-import gpxpy.gpx
+#import gpxpy.gpx
 import os 
 import pandas as pd
-dir='./DATI'
+dir='DATI'
 lista=[['Name','Total distance','Total time','Max speed','Data']]
-dir_list = os.listdir(dir)
-print(dir_list)
+#dir_list = os.listdir(dir)
+#print(dir_list)
 for filename in os.listdir(dir): 
     if filename.endswith(".gpx"):
-        os.chdir(r'./DATI')
-        with open (filename,'r') as gpx_file:
+        file_path = os.path.join(dir, filename)
+        #os.chdir(r'./DATI')
+        print (filename)
+        with open (file_path,'r') as gpx_file:
             gpx = gpxpy.parse(gpx_file)
             dati_da_inserire=[] 
             for track in gpx.tracks:
