@@ -1,11 +1,9 @@
 #!/usr/bin/env python
-
 """
 Command line utility to extract basic statistics from gpx file(s)
 """
-
 import pdb
-
+import os 
 import sys as mod_sys
 import logging as mod_logging
 import math as mod_math
@@ -108,7 +106,7 @@ def print_gpx_info(gpx: mod_gpx.GPX, gpx_file: str) -> None:
         print(f'  Email: {gpx.author_email}')
 
     print_gpx_part_info(gpx)
-
+  
     for track_no, track in enumerate(gpx.tracks):
         for segment_no, segment in enumerate(track.segments):
             print(f'    Track #{track_no}, Segment #{segment_no}')
@@ -147,4 +145,10 @@ if __name__ == '__main__':
         mod_logging.basicConfig(level=mod_logging.DEBUG,
                                 format='%(asctime)s %(name)-12s %(levelname)-8s %(message)s')
     #run([gpx_files])
-run(['Lonetti_a_piedi.gpx'])
+    dir='DATI'
+    lista2=[]
+    
+    for filename in os.listdir(dir): 
+        if filename.endswith(".gpx"):
+            lista2.append(dir+'/'+filename)
+    run(lista2)
