@@ -54,7 +54,7 @@ def calculate_max_speed(gpx_file):
     return max_speed
 
 # File GPX di esempio
-gpx_file = 'lonetti.gpx'
+gpx_file = 'lonetti_scuola.gpx'
 
 # Calcolo delle statistiche
 total_distance = calculate_total_distance(gpx_file)
